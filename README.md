@@ -1,6 +1,6 @@
-## The Game of Life in a Time-symmetrical Universe
+## The Game of Life in a Time-reversible Universe
 
-Can the Game of Life (GoL) emerge in a time-symmetrical universe? Is it possible for a reversible cellular automaton (CA)
+Can the Game of Life (GoL) emerge in a time-reversible universe? Is it possible for a reversible cellular automaton (CA)
 to somehow emulate it? One aspect of time irreversibility of GoL is that it loses information. 
 For one thing, there are many configurations of alive cells that are far enough from each other so that the entire 
 population dies out in the next generation. 
