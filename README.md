@@ -74,8 +74,8 @@ I want a simple and elegant formula and I believe I got one.
 I start with formulating the rule of GoL in the following form:       
 
 Sum over 8 neighbors: |  0  |  1  |   2  |  3  |  4  |  5  |  6  |  7  |  8
---------------------- | --- | --- | ---- | --- | --- | --- | --- | --- | ---   
-    **New state:**    |**0**|**0**|**same**|**1**|**0**|**0**|**0**|**0**|**0** 
+--------------------- | --- | --- | ---- | --- | --- | --- | --- | --- | ---
+**New state:**        |**0**|**0**|**same**|**1**|**0**|**0**|**0**|**0**|**0**
 
 Here, **same** means keep the same state: if there is a dead cell with two alive neighbors, the new state will be 0 (still dead);
 an alive cell with two alive neighbors will retain its state 1 (still alive).  
