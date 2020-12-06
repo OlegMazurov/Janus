@@ -453,7 +453,7 @@ public class Life3D extends Application {
             subScene.setHeight(newValue.doubleValue() - 20.)
         );
 
-        stage.setTitle("Time-reversible Anisotropic Game of Life");
+        stage.setTitle("Time-reversible Isotropic Game of Life");
         stage.setScene(scene);
         stage.show();
 

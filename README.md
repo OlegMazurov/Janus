@@ -92,7 +92,7 @@ Sum over 27 cells: |  0  |  1  |   2  |  3  |  4  |  5  |  6  |  7  |  8 |  9 | 
 ------------------ | --- | --- | ---- | --- | --- | --- | --- | --- | --- | --- | --- | ---  
 **New state:**     |**0**|**0**|**0**|**1**|**same¹**|**0**|**0**|**0**|**0**|**0**|...|**0** 
  
-¹ - the state of the center cell of the face to which all four alive cells belong, if any.  
+Here, **same¹** is the state of the center cell of the face to which all four alive cells belong, if and when they do.  
 
 When iterating over the 27 cells, one can assign to each three relative coordinates: _-1, 0, 1_.
 The center cell will be _(0, 0, 0)_. One vertex will be _(-1, -1, -1)_ and the opposite - _(1, 1, 1)_.
@@ -119,7 +119,7 @@ The rule is stateless. The state rules.
 
 ### Reflections
 
-The Game of Life, as arguably the most widely known cellular automaton, has been a useful tool to think about big questions: determinism, free will, do we live in Matrix?, etc.
+The Game of Life, arguably the most widely known cellular automaton, has been a useful tool to think about big questions: determinism, free will, do we live in Matrix?, etc.
 Extending the model surely should extend its applicability to no lesser questions.
 
 _Can the Arrow of Time have a direction? Be actually an arrow?_
